@@ -23,6 +23,32 @@
 		7725370B17CC4B3300B5E48D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772536E617CC4B3300B5E48D /* Foundation.framework */; };
 		7725371317CC4B3300B5E48D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7725371117CC4B3300B5E48D /* InfoPlist.strings */; };
 		7725371617CC4B3300B5E48D /* _gridsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7725371517CC4B3300B5E48D /* _gridsTests.m */; };
+		7725372217CC53F900B5E48D /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7725372017CC53F900B5E48D /* PinchViewController.m */; };
+		7725372317CC53F900B5E48D /* PinchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7725372117CC53F900B5E48D /* PinchViewController.xib */; };
+		7725372717CC5BA600B5E48D /* Niagara Falls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7725372617CC5BA600B5E48D /* Niagara Falls.jpg */; };
+		7725372C17CC74A300B5E48D /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7725372A17CC74A300B5E48D /* TextViewController.m */; };
+		7725372D17CC74A300B5E48D /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7725372B17CC74A300B5E48D /* TextViewController.xib */; };
+		7725373317CC8CA500B5E48D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7725373217CC8CA500B5E48D /* MapKit.framework */; };
+		7725373717CC8D9800B5E48D /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7725373517CC8D9800B5E48D /* mapViewController.m */; };
+		7725373817CC8D9800B5E48D /* mapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7725373617CC8D9800B5E48D /* mapViewController.xib */; };
+		7725373B17CCA87F00B5E48D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7725373A17CCA87F00B5E48D /* CoreLocation.framework */; };
+		775BF31F17CD8BDF00F60F63 /* MP4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775BF31D17CD8BDF00F60F63 /* MP4ViewController.m */; };
+		775BF32017CD8BDF00F60F63 /* MP4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775BF31E17CD8BDF00F60F63 /* MP4ViewController.xib */; };
+		775BF32317CD91A900F60F63 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775BF32217CD91A900F60F63 /* MediaPlayer.framework */; };
+		775BF32717CDD59D00F60F63 /* shortview.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 775BF32617CDD59D00F60F63 /* shortview.mp4 */; };
+		775BF32B17CDDD4200F60F63 /* YouTubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775BF32917CDDD4100F60F63 /* YouTubeViewController.m */; };
+		775BF32C17CDDD4200F60F63 /* YouTubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775BF32A17CDDD4100F60F63 /* YouTubeViewController.xib */; };
+		775BF33117CDF8D600F60F63 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 775BF32F17CDF8D600F60F63 /* WebViewController.m */; };
+		775BF33217CDF8D600F60F63 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775BF33017CDF8D600F60F63 /* WebViewController.xib */; };
+		775BF33617CDFD7D00F60F63 /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = 775BF33517CDFD7D00F60F63 /* Pin.m */; };
+		77EAD50A17CEDF3500CEC6A7 /* SnapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAD50917CEDF3500CEC6A7 /* SnapController.m */; };
+		77EAD51817CF423000CEC6A7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAD50E17CF423000CEC6A7 /* FMDatabase.m */; };
+		77EAD51917CF423000CEC6A7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAD51017CF423000CEC6A7 /* FMDatabaseAdditions.m */; };
+		77EAD51A17CF423000CEC6A7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAD51217CF423000CEC6A7 /* FMDatabasePool.m */; };
+		77EAD51B17CF423000CEC6A7 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAD51417CF423000CEC6A7 /* FMDatabaseQueue.m */; };
+		77EAD51D17CF423000CEC6A7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAD51717CF423000CEC6A7 /* FMResultSet.m */; };
+		77EAD51F17CF427A00CEC6A7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77EAD51E17CF427A00CEC6A7 /* libsqlite3.dylib */; };
+		77EAD52217CF43E300CEC6A7 /* fmdbOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EAD52117CF43E200CEC6A7 /* fmdbOP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +84,46 @@
 		7725371217CC4B3300B5E48D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7725371417CC4B3300B5E48D /* _gridsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _gridsTests.h; sourceTree = "<group>"; };
 		7725371517CC4B3300B5E48D /* _gridsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _gridsTests.m; sourceTree = "<group>"; };
+		7725371F17CC53F900B5E48D /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		7725372017CC53F900B5E48D /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		7725372117CC53F900B5E48D /* PinchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinchViewController.xib; sourceTree = "<group>"; };
+		7725372617CC5BA600B5E48D /* Niagara Falls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Niagara Falls.jpg"; sourceTree = SOURCE_ROOT; };
+		7725372917CC74A300B5E48D /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		7725372A17CC74A300B5E48D /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		7725372B17CC74A300B5E48D /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
+		7725373217CC8CA500B5E48D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7725373417CC8D9800B5E48D /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
+		7725373517CC8D9800B5E48D /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
+		7725373617CC8D9800B5E48D /* mapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mapViewController.xib; sourceTree = "<group>"; };
+		7725373A17CCA87F00B5E48D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		775BF31C17CD8BDF00F60F63 /* MP4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4ViewController.h; sourceTree = "<group>"; };
+		775BF31D17CD8BDF00F60F63 /* MP4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MP4ViewController.m; sourceTree = "<group>"; };
+		775BF31E17CD8BDF00F60F63 /* MP4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MP4ViewController.xib; sourceTree = "<group>"; };
+		775BF32217CD91A900F60F63 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		775BF32617CDD59D00F60F63 /* shortview.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shortview.mp4; sourceTree = "<group>"; };
+		775BF32817CDDD4100F60F63 /* YouTubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeViewController.h; sourceTree = "<group>"; };
+		775BF32917CDDD4100F60F63 /* YouTubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeViewController.m; sourceTree = "<group>"; };
+		775BF32A17CDDD4100F60F63 /* YouTubeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YouTubeViewController.xib; sourceTree = "<group>"; };
+		775BF32E17CDF8D500F60F63 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		775BF32F17CDF8D600F60F63 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		775BF33017CDF8D600F60F63 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		775BF33417CDFD7D00F60F63 /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pin.h; sourceTree = "<group>"; };
+		775BF33517CDFD7D00F60F63 /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pin.m; sourceTree = "<group>"; };
+		77EAD50817CEDF3500CEC6A7 /* SnapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapController.h; sourceTree = "<group>"; };
+		77EAD50917CEDF3500CEC6A7 /* SnapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapController.m; sourceTree = "<group>"; };
+		77EAD50D17CF423000CEC6A7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		77EAD50E17CF423000CEC6A7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		77EAD50F17CF423000CEC6A7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		77EAD51017CF423000CEC6A7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		77EAD51117CF423000CEC6A7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		77EAD51217CF423000CEC6A7 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		77EAD51317CF423000CEC6A7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		77EAD51417CF423000CEC6A7 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		77EAD51617CF423000CEC6A7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		77EAD51717CF423000CEC6A7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		77EAD51E17CF427A00CEC6A7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		77EAD52017CF43E200CEC6A7 /* fmdbOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmdbOP.h; sourceTree = "<group>"; };
+		77EAD52117CF43E200CEC6A7 /* fmdbOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmdbOP.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +131,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77EAD51F17CF427A00CEC6A7 /* libsqlite3.dylib in Frameworks */,
+				775BF32317CD91A900F60F63 /* MediaPlayer.framework in Frameworks */,
+				7725373B17CCA87F00B5E48D /* CoreLocation.framework in Frameworks */,
+				7725373317CC8CA500B5E48D /* MapKit.framework in Frameworks */,
 				772536E517CC4B3300B5E48D /* UIKit.framework in Frameworks */,
 				772536E717CC4B3300B5E48D /* Foundation.framework in Frameworks */,
 				772536E917CC4B3300B5E48D /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +157,7 @@
 		772536D817CC4B3300B5E48D = {
 			isa = PBXGroup;
 			children = (
+				77EAD51E17CF427A00CEC6A7 /* libsqlite3.dylib */,
 				772536EA17CC4B3300B5E48D /* 9grids */,
 				7725370E17CC4B3300B5E48D /* 9gridsTests */,
 				772536E317CC4B3300B5E48D /* Frameworks */,
@@ -106,6 +177,9 @@
 		772536E317CC4B3300B5E48D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				775BF32217CD91A900F60F63 /* MediaPlayer.framework */,
+				7725373A17CCA87F00B5E48D /* CoreLocation.framework */,
+				7725373217CC8CA500B5E48D /* MapKit.framework */,
 				772536E417CC4B3300B5E48D /* UIKit.framework */,
 				772536E617CC4B3300B5E48D /* Foundation.framework */,
 				772536E817CC4B3300B5E48D /* CoreGraphics.framework */,
@@ -117,12 +191,22 @@
 		772536EA17CC4B3300B5E48D /* 9grids */ = {
 			isa = PBXGroup;
 			children = (
+				77EAD50C17CF422F00CEC6A7 /* FMsrc */,
 				772536F317CC4B3300B5E48D /* AppDelegate.h */,
 				772536F417CC4B3300B5E48D /* AppDelegate.m */,
 				772536FC17CC4B3300B5E48D /* ViewController.h */,
 				772536FD17CC4B3300B5E48D /* ViewController.m */,
 				772536FF17CC4B3300B5E48D /* ViewController.xib */,
+				775BF32117CD913C00F60F63 /* mp4play */,
 				772536EB17CC4B3300B5E48D /* Supporting Files */,
+				7725372817CC744F00B5E48D /* PhotoPinch */,
+				7725372E17CC74B300B5E48D /* text */,
+				7725373917CC8DBA00B5E48D /* map */,
+				775BF32D17CDDD4800F60F63 /* youtube */,
+				775BF33317CDFB4D00F60F63 /* web */,
+				77EAD50B17CEF06700CEC6A7 /* snap */,
+				77EAD52017CF43E200CEC6A7 /* fmdbOP.h */,
+				77EAD52117CF43E200CEC6A7 /* fmdbOP.m */,
 			);
 			path = 9grids;
 			sourceTree = "<group>";
@@ -158,6 +242,97 @@
 				7725371117CC4B3300B5E48D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7725372817CC744F00B5E48D /* PhotoPinch */ = {
+			isa = PBXGroup;
+			children = (
+				7725372617CC5BA600B5E48D /* Niagara Falls.jpg */,
+				7725371F17CC53F900B5E48D /* PinchViewController.h */,
+				7725372017CC53F900B5E48D /* PinchViewController.m */,
+				7725372117CC53F900B5E48D /* PinchViewController.xib */,
+			);
+			name = PhotoPinch;
+			sourceTree = "<group>";
+		};
+		7725372E17CC74B300B5E48D /* text */ = {
+			isa = PBXGroup;
+			children = (
+				7725372917CC74A300B5E48D /* TextViewController.h */,
+				7725372A17CC74A300B5E48D /* TextViewController.m */,
+				7725372B17CC74A300B5E48D /* TextViewController.xib */,
+			);
+			name = text;
+			sourceTree = "<group>";
+		};
+		7725373917CC8DBA00B5E48D /* map */ = {
+			isa = PBXGroup;
+			children = (
+				7725373417CC8D9800B5E48D /* mapViewController.h */,
+				7725373517CC8D9800B5E48D /* mapViewController.m */,
+				7725373617CC8D9800B5E48D /* mapViewController.xib */,
+				775BF33417CDFD7D00F60F63 /* Pin.h */,
+				775BF33517CDFD7D00F60F63 /* Pin.m */,
+			);
+			name = map;
+			sourceTree = "<group>";
+		};
+		775BF32117CD913C00F60F63 /* mp4play */ = {
+			isa = PBXGroup;
+			children = (
+				775BF32617CDD59D00F60F63 /* shortview.mp4 */,
+				775BF31C17CD8BDF00F60F63 /* MP4ViewController.h */,
+				775BF31D17CD8BDF00F60F63 /* MP4ViewController.m */,
+				775BF31E17CD8BDF00F60F63 /* MP4ViewController.xib */,
+			);
+			name = mp4play;
+			sourceTree = "<group>";
+		};
+		775BF32D17CDDD4800F60F63 /* youtube */ = {
+			isa = PBXGroup;
+			children = (
+				775BF32817CDDD4100F60F63 /* YouTubeViewController.h */,
+				775BF32917CDDD4100F60F63 /* YouTubeViewController.m */,
+				775BF32A17CDDD4100F60F63 /* YouTubeViewController.xib */,
+			);
+			name = youtube;
+			sourceTree = "<group>";
+		};
+		775BF33317CDFB4D00F60F63 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				775BF32E17CDF8D500F60F63 /* WebViewController.h */,
+				775BF32F17CDF8D600F60F63 /* WebViewController.m */,
+				775BF33017CDF8D600F60F63 /* WebViewController.xib */,
+			);
+			name = web;
+			sourceTree = "<group>";
+		};
+		77EAD50B17CEF06700CEC6A7 /* snap */ = {
+			isa = PBXGroup;
+			children = (
+				77EAD50817CEDF3500CEC6A7 /* SnapController.h */,
+				77EAD50917CEDF3500CEC6A7 /* SnapController.m */,
+			);
+			name = snap;
+			sourceTree = "<group>";
+		};
+		77EAD50C17CF422F00CEC6A7 /* FMsrc */ = {
+			isa = PBXGroup;
+			children = (
+				77EAD50D17CF423000CEC6A7 /* FMDatabase.h */,
+				77EAD50E17CF423000CEC6A7 /* FMDatabase.m */,
+				77EAD50F17CF423000CEC6A7 /* FMDatabaseAdditions.h */,
+				77EAD51017CF423000CEC6A7 /* FMDatabaseAdditions.m */,
+				77EAD51117CF423000CEC6A7 /* FMDatabasePool.h */,
+				77EAD51217CF423000CEC6A7 /* FMDatabasePool.m */,
+				77EAD51317CF423000CEC6A7 /* FMDatabaseQueue.h */,
+				77EAD51417CF423000CEC6A7 /* FMDatabaseQueue.m */,
+				77EAD51617CF423000CEC6A7 /* FMResultSet.h */,
+				77EAD51717CF423000CEC6A7 /* FMResultSet.m */,
+			);
+			name = FMsrc;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +411,14 @@
 				772536F917CC4B3300B5E48D /* Default@2x.png in Resources */,
 				772536FB17CC4B3300B5E48D /* Default-568h@2x.png in Resources */,
 				7725370117CC4B3300B5E48D /* ViewController.xib in Resources */,
+				7725372317CC53F900B5E48D /* PinchViewController.xib in Resources */,
+				7725372717CC5BA600B5E48D /* Niagara Falls.jpg in Resources */,
+				7725372D17CC74A300B5E48D /* TextViewController.xib in Resources */,
+				7725373817CC8D9800B5E48D /* mapViewController.xib in Resources */,
+				775BF32017CD8BDF00F60F63 /* MP4ViewController.xib in Resources */,
+				775BF32717CDD59D00F60F63 /* shortview.mp4 in Resources */,
+				775BF32C17CDDD4200F60F63 /* YouTubeViewController.xib in Resources */,
+				775BF33217CDF8D600F60F63 /* WebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +456,20 @@
 				772536F117CC4B3300B5E48D /* main.m in Sources */,
 				772536F517CC4B3300B5E48D /* AppDelegate.m in Sources */,
 				772536FE17CC4B3300B5E48D /* ViewController.m in Sources */,
+				7725372217CC53F900B5E48D /* PinchViewController.m in Sources */,
+				7725372C17CC74A300B5E48D /* TextViewController.m in Sources */,
+				7725373717CC8D9800B5E48D /* mapViewController.m in Sources */,
+				775BF31F17CD8BDF00F60F63 /* MP4ViewController.m in Sources */,
+				775BF32B17CDDD4200F60F63 /* YouTubeViewController.m in Sources */,
+				775BF33117CDF8D600F60F63 /* WebViewController.m in Sources */,
+				775BF33617CDFD7D00F60F63 /* Pin.m in Sources */,
+				77EAD50A17CEDF3500CEC6A7 /* SnapController.m in Sources */,
+				77EAD51817CF423000CEC6A7 /* FMDatabase.m in Sources */,
+				77EAD51917CF423000CEC6A7 /* FMDatabaseAdditions.m in Sources */,
+				77EAD51A17CF423000CEC6A7 /* FMDatabasePool.m in Sources */,
+				77EAD51B17CF423000CEC6A7 /* FMDatabaseQueue.m in Sources */,
+				77EAD51D17CF423000CEC6A7 /* FMResultSet.m in Sources */,
+				77EAD52217CF43E300CEC6A7 /* fmdbOP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +650,7 @@
 				7725371B17CC4B3300B5E48D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7725371C17CC4B3300B5E48D /* Build configuration list for PBXNativeTarget "9gridsTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +659,7 @@
 				7725371E17CC4B3300B5E48D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

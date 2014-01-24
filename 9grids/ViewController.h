@@ -7,7 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "PinchViewController.h"
+#import "TextViewController.h"
+#import "mapViewController.h"
+#import "MP4ViewController.h"
+#import "YouTubeViewController.h"
+#import "WebViewController.h"
+#import "SnapController.h"
+@interface ViewController : UIViewController{
+    SnapController *TakePhoto;
+}
+@property (nonatomic) SnapController *TakePhoto;
+- (IBAction)PinchBtn:(id)sender;
+- (IBAction)TextBtn:(id)sender;
+- (IBAction)MapBtn:(id)sender;
+- (IBAction)MP4Btn:(id)sender;
+- (IBAction)YouTubeBtn:(id)sender;
+- (IBAction)WebBtn:(id)sender;
+- (IBAction)PhotoBtn:(id)sender;
 
 @end
